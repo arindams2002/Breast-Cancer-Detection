@@ -2,17 +2,20 @@
 import numpy as np
 from sklearn import datasets
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 # Fetching the dataset
 breast_cancer = datasets.load_breast_cancer()
-# print(breast_cancer)
+# print(breast_cancer)  # printing the dataset to check whether is has been loaded or not.
 
 X = breast_cancer.data
 Y = breast_cancer.target
 
+# Printing the Data and Target of the Dataset
 # print(X)
 # print(Y)
 
+# printing the shape of X and Y or the instances of X and Y
 # print(X.shape, Y.shape)
 
 """Import data to the Pandas Data Frame"""
@@ -20,21 +23,20 @@ data = pd.DataFrame(breast_cancer.data, columns = breast_cancer.feature_names)
 
 data['class'] =  breast_cancer.target
 
-# print(data.head())
+# print(data.head())    # print some data samples
 
-data.describe()
+# print(data.describe())    # prints statistical data
 
-print(data['class'].value_counts())
+# print(data['class'].value_counts())   # prints the number of cases for malignant and benign
 
-print(breast_cancer.target_names)
+# print(breast_cancer.target_names)     # Displays the target names, i.e., Malignant and Benign
 
-data.groupby('class').mean()
+# data.groupby('class').mean()  # printing the mean feature values for each of the targets
 #0 = malignant
 #1 = benign
 
 """Train and Test Data Split"""
 
-from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X,Y)
 
 print(Y.shape, Y_train.shape, Y_test.shape)
