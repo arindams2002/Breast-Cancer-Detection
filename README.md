@@ -17,7 +17,8 @@ In this repository, I have developed a Breast cancer Prediction System using Log
 
 ## Logistic Regression
 Logistic regression estimates the probability of an event occurring, such as voted or didn't vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1.
-<img src="https://thumbs.gfycat.com/RaggedShorttermHalcyon-size_restricted.gif" width="400">
+<br>
+<p align="center"><img src="https://thumbs.gfycat.com/RaggedShorttermHalcyon-size_restricted.gif" width="400"></p>
 
 
 ## Why have I used logistic regression in this project?
