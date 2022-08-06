@@ -47,7 +47,7 @@ The copy of UCI ML Breast Cancer Wisconsin (Diagnostic) dataset is downloaded fr
 
 ### ***Data Set Information***
 
-Features are computed from a digitized image of a **Fine Needle Aspirate (FNA)** of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at [Web Link](http://www.cs.wisc.edu/~street/images/)
+Features are computed from a digitized image of a **Fine Needle Aspirate (FNA)** of a breast mass. They describe characteristics of the cell nuclei present in the image.
 
 ### ***Attribute Information:***
 
