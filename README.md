@@ -9,16 +9,14 @@
 ## Table of Contents
 - [About](#about-the-project)
 - [Logistic Regression](#logistic-regression)
-<<<<<<< HEAD
 - [Why have I used logistic regression in this project?](#why-have-I-used-logistic-regression-in-this-project?)
 - [Why I found Logistic Regression to be preferrable in this project?](#why-I-found-Logistic-Regression-to-be-preferrable-in-this-project?)
+- [Dataset](#dataset)
 - [Working of the Model](#how-does-the-model-work)
-=======
->>>>>>> 885381fbcff9e394978326e7c7f29ed52927d294
 - [Libraries Used](#libraries-used)
 
 ## About the Project
-In this repository, I have developed a Breast cancer Prediction System using Logistic Regression. We will use Logistic Regression to classify and predict breast cancer.
+In this repository, I have developed a Breast cancer Prediction System using Logistic Regression. I am using Logistic Regression to classify and predict breast cancer.
 
 ## Logistic Regression
 Logistic regression estimates the probability of an event occurring, such as voted or didn't vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1.
@@ -26,13 +24,47 @@ Logistic regression estimates the probability of an event occurring, such as vot
 <p align="center"><img src="https://thumbs.gfycat.com/RaggedShorttermHalcyon-size_restricted.gif" width="400"></p>
 
 
-### Why have I used logistic regression in this project?
+## Why have I used logistic regression in this project?
 Logistic Regression is used when the dependent variable(target) is categorical, such as to predict whether the tumor is malignant (1) or benign (0).
 
-### Why I found Logistic Regression to be preferrable in this project?
+## Why I found Logistic Regression to be preferrable in this project?
 Logistic regression analysis is valuable for predicting the likelihood of an event. It helps determine the probabilities between any two classes by analyzing or training on historical data.
 
-## How does the Model Work?
+## Dataset
+I am importing the classified breast cancer wisconsin dataset.
+The breast cancer dataset is a classic and very easy binary classification
+    dataset.
+
+    =================   ==============
+    Classes                          2
+    Samples per class*   212(M),357(B)
+    Samples total                  569
+    Dimensionality                  30
+    Features            real, positive
+    =================   ==============
+
+The copy of UCI ML Breast Cancer Wisconsin (Diagnostic) dataset is downloaded from [here](https://goo.gl/U2Uwz2).
+
+### ***Data Set Information***
+
+Features are computed from a digitized image of a **Fine Needle Aspirate (FNA)** of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at [Web Link](http://www.cs.wisc.edu/~street/images/)
+
+### ***Attribute Information:***
+
+1) ID number
+2) Diagnosis (M = malignant, B = benign)
+3) Ten real-valued features are computed for each cell nucleus:
+    - radius (mean of distances from center to points on the perimeter)
+    - texture (standard deviation of gray-scale values)
+    - perimeter
+    - area
+    - smoothness (local variation in radius lengths)
+    - compactness (perimeter^2 / area - 1.0)
+    - concavity (severity of concave portions of the contour)
+    - concave points (number of concave portions of the contour)
+    - symmetry
+    - fractal dimension (coastline approximation - 1)
+
 
 ## Libraries Used
 <p align="center">
