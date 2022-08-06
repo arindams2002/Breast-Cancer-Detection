@@ -41,7 +41,7 @@ that are accessible to everybody and reusable in various contexts:
 machine-learning as a versatile tool for science and engineering.</p>
 
 <p align="center">
-==================================
+==================================<br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" alt="Pandas" width="30%">
 
 Pandas is a Python package providing fast, flexible, and expressive data
@@ -53,7 +53,7 @@ analysis / manipulation tool available in any language**. It is already well on
 its way toward this goal.
 </p>
 <p align="center">
-==================================
+==================================<br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1200px-NumPy_logo_2020.svg.png" alt="NumPy" width="30%">
 
 NumPy provides
