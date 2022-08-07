@@ -70,12 +70,12 @@ Features are computed from a digitized image of a **Fine Needle Aspirate (FNA)**
 The data is then split into training and testing data by using *train_test_split* funtion of Scikit Learn. There were now 426 training data and 143 testing data, but so many testing data were not required so the *test_size* was assigned as 0.1 that means the 10% of the whole data. Now there are 512 training and 57 testing data.</p>
 <p>Then from the mean it was observed that the distribution of the data was not even. So the data was stratified. Now the data was equally distributed among the two targets Malignant[0] and Benign[1].</p>
 <table>
-<tr><th>Malignant</th>
-<th>Benign</th></tr>
-<tr><td>Malignancy is the tendency of a medical condition to become progressively worse. Malignancy is most familiar as a characterization of cancer.</td>
-<td>Benign refers to a condition, tumor, or growth that is not cancerous. This means that it does not spread to other parts of the body. It does not invade nearby tissue. Sometimes, a condition is called benign to suggest it is not dangerous or serious. In general, a benign tumor grows slowly and is not harmful.</td></tr>
+<tr><th>Benign [1]</th><th>Malignant [0]</th>
+</tr>
+<tr><td>Benign refers to a condition, tumor, or growth that is not cancerous. This means that it does not spread to other parts of the body. It does not invade nearby tissue. Sometimes, a condition is called benign to suggest it is not dangerous or serious. In general, a benign tumor grows slowly and is not harmful.</td><td>Malignancy is the tendency of a medical condition to become progressively worse. Malignancy is most familiar as a characterization of cancer.</td>
+</tr>
 </table>
-
+<p align="center"><img src="https://www.publichealthnotes.com/wp-content/uploads/2022/04/shutterstock_1493059916.jpg" width="100%"></p>
 ## Libraries Used
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" alt="Scikit Learn" width="30%">
