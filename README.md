@@ -79,7 +79,7 @@ The data is then split into training and testing data by using *train_test_split
 
 *For more information about Benign and Malignant Tumor, you can refer from  <a href="https://www.verywellhealth.com/what-does-malignant-and-benign-mean-514240">VeryWellHealth</a> page related to this.*
 
-<p>Further the *LogisticRegression* model is loaded and the training data is fitted in the variable where the model is loaded. Then the model is evaluated and the prediction on the training data is made. For testing the accuracy of it we need another function that is the *accuracy_score* function. The accuracy of our prediction on training data was observed as *95.12%* while the accuracy of our prediction on testing data was observed as *92.98%*.</p>
+Further the *LogisticRegression* model is loaded and the training data is fitted in the variable where the model is loaded. Then the model is evaluated and the prediction on the training data is made. For testing the accuracy of it we need another function that is the *accuracy_score* function. The accuracy of our prediction on training data was observed as *95.12%* while the accuracy of our prediction on testing data was observed as *92.98%*.
 
 ## Libraries Used
 <p align="center">
