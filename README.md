@@ -12,7 +12,7 @@
 - [Why have I used logistic regression in this project?](#why-have-I-used-logistic-regression-in-this-project?)
 - [Why I found Logistic Regression to be preferrable in this project?](#why-I-found-Logistic-Regression-to-be-preferrable-in-this-project?)
 - [Dataset](#dataset)
-- [Working of the Model](#how-does-the-model-work)
+- [Working of the Model](#working-of-the-model)
 - [Libraries Used](#libraries-used)
 
 ## About the Project
@@ -32,8 +32,7 @@ Logistic regression analysis is valuable for predicting the likelihood of an eve
 
 ## Dataset
 I am importing the classified breast cancer wisconsin dataset.
-The breast cancer dataset is a classic and very easy binary classification
-    dataset.
+The breast cancer dataset is a classic and very easy binary classification dataset.
 
     =================   ==============
     Classes                          2
@@ -65,6 +64,17 @@ Features are computed from a digitized image of a **Fine Needle Aspirate (FNA)**
     - symmetry
     - fractal dimension (coastline approximation - 1)
 
+## Working of the Model
+<p>The dataset is loaded and then the data and targets are separated out. The data consists of 569 instances and 30 features.</p>
+<p>
+The data is then split into training and testing data by using *train_test_split* funtion of Scikit Learn. There were now 426 training data and 143 testing data, but so many testing data were not required so the *test_size* was assigned as 0.1 that means the 10% of the whole data. Now there are 512 training and 57 testing data.</p>
+<p>Then from the mean it was observed that the distribution of the data was not even. So the data was stratified. Now the data was equally distributed among the two targets Malignant[0] and Benign[1].</p>
+<table>
+<tr><th>Malignant</th>
+<th>Benign</th></tr>
+<tr><td>Malignancy is the tendency of a medical condition to become progressively worse. Malignancy is most familiar as a characterization of cancer.</td>
+<td>Benign refers to a condition, tumor, or growth that is not cancerous. This means that it does not spread to other parts of the body. It does not invade nearby tissue. Sometimes, a condition is called benign to suggest it is not dangerous or serious. In general, a benign tumor grows slowly and is not harmful.</td></tr>
+</table>
 
 ## Libraries Used
 <p align="center">

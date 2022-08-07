@@ -3,6 +3,8 @@ import numpy as np
 from sklearn import datasets
 import pandas as pd
 from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
 
 # Fetching the dataset
 breast_cancer = datasets.load_breast_cancer()
@@ -37,44 +39,40 @@ data['class'] =  breast_cancer.target
 
 """Train and Test Data Split"""
 
-X_train, X_test, Y_train, Y_test = train_test_split(X,Y)
+# X_train, X_test, Y_train, Y_test = train_test_split(X,Y)
 
-print(Y.shape, Y_train.shape, Y_test.shape)
+# print(Y.shape, Y_train.shape, Y_test.shape)
+# After running this data we will see that we have 426 training data and 143 testing data(we don't need so many)
 
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1)
+# X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1)
 #test_size --> to specify the percentage of test data needed
 
-print(Y.shape, Y_train.shape, Y_test.shape)
+# print(Y.shape, Y_train.shape, Y_test.shape)
+# Now there are 512 training data and 57 testing data.
 
-print(Y.mean(), Y_train.mean(), Y_test.mean())
+# print(Y.mean(), Y_train.mean(), Y_test.mean())
+# This output lets us know the distribution of the data of the mean and we found out that the distribution of the test data is a bit lo.
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, stratify=Y)
 #stratify --> for correct distribution of data as of the original data
 
-print(Y.mean(), Y_train.mean(), Y_test.mean())
+# print(Y.mean(), Y_train.mean(), Y_test.mean())
+#Now there is equal distribution between the training data of Malignant and Benign
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, stratify=Y, random_state=1)
 #random_state --> specific split of data, each value of random_state splits the data differently
 
-print(X_train.mean(), X_test.mean(), X.mean())
+# print(X_train.mean(), X_test.mean(), X.mean())
 
-print(X_train)
+# print(X_train)
 
 """**Logistic Regression**"""
-
-#import logistic regression from sklearn
-from sklearn.linear_model import LogisticRegression
-
 classifier = LogisticRegression()   #loading the logistic regression model to the variable "classifier"
 
-#training the model on training data
+# training the model on training data
 classifier.fit(X_train, Y_train)
 
 """**Evaluation of the Model**"""
-
-#import accuracy_score
-from sklearn.metrics import accuracy_score
-
 prediction_on_training_data = classifier.predict(X_train)
 accuracy_on_training_data = accuracy_score(Y_train, prediction_on_training_data)
 
