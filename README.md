@@ -23,12 +23,16 @@ Logistic regression estimates the probability of an event occurring, such as vot
 <br>
 <p align="center"><img src="https://thumbs.gfycat.com/RaggedShorttermHalcyon-size_restricted.gif" width="400"></p>
 
+<p align="center"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAScAAACWCAMAAACrZb4XAAAABlBMVEX///8AAABVwtN+AAADQUlEQVR4nO2c0XKEIAwA5f9/utM7z0OSaFpAkey+9GrRCzsEA3VcFgAAAAAAAACAiUnp7ggeQPql/P19JPsIixhPmRosZQgX2wEs5Rx4ujqUoTE9BddUdF9JrnUavySacXF6iqbpfWvPei09lXf/4oQIrEMjmZ5WTaWoaJrWH0ke+/y21ZS7g53jGgy1EBLjSWkSy5NeMIqpSDQJlnalg7RHbfP6GGxAGeuPs/GUxBlzkykwPRmaQnoqZ5tjT0U6BiCblfbHZRu59A0k6u3nVUfu3cjPcocglqePqpP5ScnQSKXBd/92f1htFGrHd/LutWFLMkQdkafPvZGMTMoqITyZ7O9UeDLI1eDJBk0uyDoXaPLBvc5FtjeJpQO+dTiWjph90doIHPnAkw88+cCTD/kg6m2hDE3hCU0WO1FoMtk9LYAmG/FwxeCkksu/+KovrCYP98LIH2ZpKaqZpwV/IeVNGlE6ePIhPSFKofSCJx08+RBrUjyp4MkFaecDTz6UtLstloFhdvLBcPIhFsFo0nBuqohtqmftstXj7DOewvS0Djy5QJMPPPlo7+lgxh8Td6faepoSNPnAkw+3p8r8fjj+buLp7hieAJ5cREmbWtDkYu7h1KxrM9+uyp5lff1bt+e/s5cvioj52oxThAv5lh9YDj1dHcrQmJ6Cayq6ryTXOo1fEs24OD1F0/S+TedPS5Z/V54vCadpHRrJ9JSe9WLbToFt/76Wx7YvTtmPvtHU0q2EVQshMZ6UJgN66ljq6wWjmIpEkxHT7jVn9vFUOtB2VzVPacwBtfTatjHWH2fjKYkzhqGLp0yB6cnQFNJTee1jT0U6jkVPT+Lamiex9B1T1Kmn/4T9vmaa6cW2vTx9VJ3MT0qGjlgatPO0r8S++7f7RsZX/3vH9zqaeNoGz3j9a0ULT/mwaBHTiNR7+l4AT8cXcF/rwdR6yk/Hk+vPM2uq9RQk62o9hdHUzNPkmvT+JRPj5Nkt1Xv6tL4m2vuoyrtRF2MdqPEUxdEvePKBJx948lHrSf3XwIQ09DSzpgZ1gafh82lQP30+tgxrOKrXd0apPhnnXTzdV5nfkms0nO9nTm4JAAAAAAAAAAAALH4Ax3MGZ69EHBgAAAAASUVORK5CYII=" width="150"></p>
+
 
 ## Why have I used logistic regression in this project?
 Logistic Regression is used when the dependent variable(target) is categorical, such as to predict whether the tumor is malignant (1) or benign (0).
 
 ## Why I found Logistic Regression to be preferrable in this project?
 Logistic regression analysis is valuable for predicting the likelihood of an event. It helps determine the probabilities between any two classes by analyzing or training on historical data.
+
+<p align="center"><img src="https://www.saedsayad.com/images/LogReg_1.png"></p>
 
 ## Dataset
 I am importing the classified breast cancer wisconsin dataset.
