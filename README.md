@@ -76,6 +76,7 @@ The data is then split into training and testing data by using *train_test_split
 </tr>
 </table>
 <p align="center"><img src="https://www.publichealthnotes.com/wp-content/uploads/2022/04/shutterstock_1493059916.jpg" width="100%"></p>
+
 ## Libraries Used
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" alt="Scikit Learn" width="30%">
